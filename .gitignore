@@ -1,0 +1,50 @@
+# Executables
+*.exe  # Windows executables
+*.out  # Default Linux/macOS executable name
+my_program  # Specific executable name if not using default or extensions
+
+# Object files
+*.o
+*.obj
+
+# Build directories
+build/
+bin/
+debug/
+release/
+
+# Compiler-specific files (e.g., Visual Studio)
+*.ilk
+*.pdb
+*.suo
+*.user
+*.ncb
+*.aps
+*.bsc
+*.sbr
+*.res
+*.vcproj.user
+*.vcxproj.user
+*.filters
+*.sln.docstates
+
+# Libraries (if not intended for version control)
+*.lib
+*.dll
+*.so
+*.dylib
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+_CPack_Packages/
+
+# Other temporary or generated files
+*~
+*.bak
+*.swp
+*.vscode*
+*.exe
